@@ -1,0 +1,95 @@
+/* settings */
+:root{
+    --white: #FFF;
+    --blue: #26C6EA;
+    --dark-blue: #0B0E66;
+    --black: #000;
+    --light-blue: #94CFFF;
+}
+
+.conteiner{
+    width: 1047px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    padding: 0 15px;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 24px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+     background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.40),
+      rgba(47, 48, 58, 0.40)
+    ),
+    url("../images/header-photo.png") ;
+    /* background: no-repeat; */
+}
+/* Navigation */
+.navigation,.menu{
+    display: flex;
+}
+
+.menu{
+    margin-left: 168px;
+}
+
+.menu-item:nth-child(n+2){
+    padding-left: 38px;
+}
+
+.menu-item{
+    margin-top: 44px;
+    margin-bottom: 34px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.nav{
+    color: var(--white);
+}
+
+.login{
+    margin-top: 44px;
+    margin-bottom: 34px;
+    color: var(--blue);
+    background-color: var(--dark-blue);
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid var(--blue);
+    font-family: 'HeadlandOne';
+    width: 141px;
+    height: 41.694px;
+    text-align: center; 
+}
+
