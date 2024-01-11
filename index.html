@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="conteiner c">
+    <header class="header">
+        <div class="conteiner">
         <nav class="navigation">
 
             <a href="/">
-                <img src="./images/avatar.jpg" alt="Avatar" class="logo">
+                <img src="./images/avatar.png" alt="Avatar" class="logo">
             </a>
             
             <ul class="menu">
@@ -34,41 +34,66 @@
             <a href="#" class="login">Увійти</a>
         </nav>
         </div>
+
+        <div class="language">
+            <ul>
+                <li class="set-up-lang">ENG</li>
+
+                <li class="set-up-lang">
+                    <a href="#" class="switcher"><img src="./images/switcher-right.png" alt="swtitch"  class="switcher-img"></a>
+                </li>
+
+                <li class="set-up-lang">UA</li>
+            </ul>
+        </div>
     </header>
 
     <main>
         <!-- Перва секция -->
         <section class="hero-section section">
-            <div class="conteiner">
-            <p class="hero-item">
-                Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng!
-            </p>
-            
-            <img src="./images/trident.png" alt="trident">
+            <div class="conteiner hero-div">
 
-            <p class="hero-item">Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло залишається, щоб стати частиною Народу. Борись разом з нами!</p>
-            
-            <a href="#" class="join-clan">Приєднатися до клану</a>
+                <ul class="hero-list">
+                    <li class="hero-item">
+                        <p class="item-link navi-lang">
+                            Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea,
+                             tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng!
+                        </p>
+                    </li>
+
+                    <li class="hero-item"><img src="./images/trident.png" alt="trident"></li>
+
+                    <li class="hero-item">
+                        <p class="item-link ua-lang">Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою,
+                             твоє тіло залишається, щоб стати частиною Народу. Борись разом з нами!
+                        </p>
+                    </li>
+
+                    <li class="hero-item clan">
+                        <a href="#" class="join-clan">Приєднатися до клану</a>
+                    </li>
+                </ul>
+
             </div>
         </section>
 <!-- Втора секция -->
-         <section class="section">
+         <section class="section jake-S">
             <div class="conteiner">
                 <p class="quote">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</p>
                 <p class="quote">ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
-                <p class="quote">Джейк Саллі</p>
+                <p class="jake">Джейк Саллі</p>
 
                 <img src="./images/angel.png" alt="angel" class="angel">
             </div>
         </section>
 <!-- Третя секция -->
-        <section>
-            <div class="conteiner">
+        <section class="section video-trailer">
+            <div class="conteiner video">
                 <a href="https://www.youtube.com/watch?v=d9MyW72ELq0&ab_channel=Avatar" target="_blank" class="trailer">Дивитись трейлер</a>
             </div>
         </section>
 <!-- Четвертая секция -->
-        <section>
+        <section class="section jake-S">
             <div class="conteiner">
                 <p class="quote">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</p>
                 <p class="quote">ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
@@ -77,80 +102,83 @@
             </div>
         </section>
 <!-- Пята секция -->
-        <section>
+        <section class="section sky">
             <div class="conteiner">
                 <p class="learn-lang">Вчимо мову На’ві</p>
 
                 <ul class="link-lang-learn">
 
                     <li class="item-lang">
-                        <p>Привіт</p>
-                        <img src="./images/trident-black-right.png" alt="">
-                        <p>Kaltxì</p>
+                        <p class="link-lang-ua">Привіт</p>
+                        <img src="./images/trident-black-right.png" alt="trident" class="link-img-lang">
+                        <p class="link-lang-navi">Kaltxì</p>
                     </li>
 
                     <li class="item-lang">
-                        <p>Як справи?</p>
-                        <img src="./images/angel.png" alt="">
-                        <p>Ngaru lu fpom srak?</p>
+                        <p class="link-lang-ua">Як справи?</p>
+                        <img src="./images/angel.png" alt="" class="link-img-lang">
+                        <p class="link-lang-navi">Ngaru lu fpom srak?</p>
                     </li>
 
                     <li class="item-lang">
-                        <p>Все добре</p>
-                        <img src="./images/trident-black-left.png" alt="">
-                        <p>Lu fpom</p>
+                        <p class="link-lang-ua">Все добре</p>
+                        <img src="./images/trident-black-left.png" alt="" class="link-img-lang">
+                        <p class="link-lang-navi">Lu fpom</p>
                     </li>
 
                     <li class="item-lang">
-                        <p>Дякую</p>
-                        <img src="./images/trident-black-right.png" alt="">
-                        <p>Irayo si</p>
+                        <p class="link-lang-ua">Дякую</p>
+                        <img src="./images/trident-black-right.png" alt="" class="link-img-lang">
+                        <p class="link-lang-navi">Irayo si</p>
                     </li>
 
                     <li class="item-lang">
-                        <p>Я бачу тебе</p>
-                        <img src="./images/angel.png" alt="">
-                        <p>Oel ngati kameie</p>
+                        <p class="link-lang-ua">Я бачу тебе</p>
+                        <img src="./images/angel.png" alt="" class="link-img-lang">
+                        <p class="link-lang-navi">Oel ngati kameie</p>
                     </li>
 
                     <li class="item-lang">
-                        <p>Слідуй за мною!</p>
-                        <img src="./images/trident-black-left.png" alt="">
-                        <p>Nong oet!</p>
+                        <p class="link-lang-ua">Слідуй за мною!</p>
+                        <img src="./images/trident-black-left.png" alt="" class="link-img-lang">
+                        <p class="link-lang-navi">Nong oet!</p>
                     </li>
 
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section class="section jake-S">
             <div class="conteiner">
                 <p class="quote">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</p>
                 <p class="quote">ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
-                <p class="quote">Нейтірі</p>
+                <p class="jake">Нейтірі</p>
                 <img src="./images/angel.png" alt="angel" class="angel">
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="conteiner">
-        <a href="#"><img src="./images/avatar.jpg" alt="Avatar" class="logo"></a>
-        <p class="email">Q&A E-mail</p>
-        <p class="email">Cooperation E-mail</p>
+        <section class="section footer">
+            <div class="conteiner s">
+                <a href="#" class="logo-footer"><img src="./images/avatar.png" alt="Avatar"></a>
+                <img src="./images/line.png" alt="" class="aa">
+                <p class="email">Q&A E-mail</p>
+                <p class="email">Cooperation E-mail</p>
 
-        <ul class="menu-contact">
-            <li class="item-contact">
-                <a href="maito:avatartwowqa@gmail.com" class="email">avatartwowqa@gmail.com</a>
-            </li>
+                <ul class="menu-contact">
+                    <li class="item-contact">
+                        <a href="mailto:avatartwowqa@gmail.com" class="email">avatartwowqa@gmail.com</a>
+                    </li>
 
-            <li class="item-contact">
-                <a href="mailto:avatartwowcoop@gmail.com" class="email">avatartwowcoop@gmail.com</a>
-            </li>
+                    <li class="item-contact">
+                        <a href="mailto:avatartwowcoop@gmail.com" class="email">avatartwowcoop@gmail.com</a>
+                    </li>
 
-        </ul>
-        <p class="rights-protected">©2023 Avatar: The Way Of Water. All rights reserved</p>
-        </div>
+                </ul>
+                <p class="rights-protected">©2023 Avatar: The Way Of Water. All rights reserved</p>
+            </div>
+        </section>       
     </footer>
 </body>
 </html>
