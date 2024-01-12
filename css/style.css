@@ -258,8 +258,9 @@ h1,h2,h3,h4,h5,h6{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding-top: 77px;
+    padding-top: 35px;
     padding-bottom: 76px;
+    height: 223px;
 }
 
 .s{
@@ -272,7 +273,39 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
 }
 
-.aa{
+.line{
     width: 2px;
     height: 153px;
+    margin-right: 80px;
 }
+
+.email-qa{
+    font-size: 20px;
+    color: var(--white);
+    line-height: 1.2;
+    margin-top: 80px;
+}
+
+.gmail-qa{
+    margin-top: 80px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.vector1{
+    margin-top: 92px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* .rights-protected{
+    display: flex;
+    text-align: center;
+    align-items: end;
+    font-size: 14px;
+    color: var(--white);
+    width: 348px;
+    height: 17px;
+    outline: 2px solid red;
+} */
