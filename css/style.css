@@ -48,7 +48,6 @@ h1,h2,h3,h4,h5,h6{
 .conteiner-header{
     outline: 2px solid red;
     margin-left: auto;
-    margin-right: 125px;
     width: 1060px;
 }
 
@@ -63,6 +62,8 @@ h1,h2,h3,h4,h5,h6{
     background-position: center;
     background-size: 100%;
     border-bottom: 3px solid var(--white);
+    padding-left: 205px;
+    padding-right: 50px;
 }
 /* Navigation */
 .navigation,.menu{
@@ -117,6 +118,8 @@ h1,h2,h3,h4,h5,h6{
 .language{
     outline: 2px solid red;
     margin: 20px 0;
+    margin-left: 50px;
+    margin-right: auto;
 }
 
 .switcher-img{
@@ -127,6 +130,7 @@ h1,h2,h3,h4,h5,h6{
 .set-up-lang{
     color: var(--white);
     font-size: 16px;
+    font-family: "Hammersmith One";
 }
 /* Main */
 /* Hero-section */
@@ -134,6 +138,8 @@ h1,h2,h3,h4,h5,h6{
     height: 740px;
     padding-top: 180px;
     padding-bottom: 179px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero-section{
@@ -141,8 +147,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navi-lang{
-    width: 298px;
-    height: 96px;
+    width: 290px;
     color: var(--white);
     font-size: 20px;
     font-weight: 400;
@@ -151,12 +156,12 @@ h1,h2,h3,h4,h5,h6{
 
 .ua-lang{
     width: 376px;
-    height: 123px;
     font-size: 20px;
     color: var(--white);
 }
 
-.clan{
+.join-clan{
+    display: block;
     margin-top: 52px;
     color: var(--blue);
     width: 260px;
@@ -165,11 +170,15 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 45px 0px;
     border: 3px solid var(--blue);
     background: var(--dark-blue);
+    padding: 10px 30px;
 }
-
-.join-clan{
-    color: var(--blue);
-    
+/* Icon */
+.icon-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
 }
 /* Quote */
 .quote{
@@ -267,6 +276,15 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 40px;
     line-height: 100%;
 }
+
+.navi-lang::after{
+    display: block;
+    content: "";
+    background-image: url(../images/trident.png);
+    width: 152px;
+    height: 40px;
+    margin-left: 50px;
+}
 /* Footer */
 .footer{
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),
@@ -281,8 +299,9 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 25px;
 }
 
-.div-footer{
+.position-footer{
     display: flex;
+    align-items: center;
 }
 
 .logo-footer{
@@ -299,7 +318,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .menu-contact{
-    padding-top: 80px;
+    margin-top: 69px;
 }
 
 .email-qa, .gmail-qa{
@@ -318,10 +337,12 @@ h1,h2,h3,h4,h5,h6{
 
 .item-contact{
     display: flex;
+    align-items: center;
 }
 
 .item-coop{
     padding-top: 16px;
+    padding-bottom: 37px;
 }
 
 .email-qa::after{
@@ -353,4 +374,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     text-align: center;
     color: var(--white);
+    margin-left: 130px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
 }
