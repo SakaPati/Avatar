@@ -12,7 +12,6 @@
 .conteiner{
     width: 1060px;
     margin: 0 auto;
-    outline: 2px solid red;
     padding: 0 15px;
 }
 
@@ -46,7 +45,6 @@ h1,h2,h3,h4,h5,h6{
 }
 /* header */
 .conteiner-header{
-    outline: 2px solid red;
     margin-left: auto;
     width: 1060px;
 }
@@ -63,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
     background-size: 100%;
     border-bottom: 3px solid var(--white);
     padding-left: 205px;
-    padding-right: 50px;
+    padding-right: 55px;
 }
 /* Navigation */
 .navigation,.menu{
@@ -116,7 +114,6 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Switcher */
 .language{
-    outline: 2px solid red;
     margin: 20px 0;
     margin-left: 50px;
     margin-right: auto;
@@ -161,7 +158,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .join-clan{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 52px;
     color: var(--blue);
     width: 260px;
@@ -171,6 +170,7 @@ h1,h2,h3,h4,h5,h6{
     border: 3px solid var(--blue);
     background: var(--dark-blue);
     padding: 10px 30px;
+    font-family: "HeadlandOne";
 }
 /* Icon */
 .icon-list{

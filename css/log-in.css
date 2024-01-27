@@ -1,0 +1,95 @@
+/* settings */
+:root{
+    --white: #FFF;
+    --blue: #26C6EA;
+    --dark-blue: #0B0E66;
+    --black: #000;
+    --light-blue: #94CFFF;
+    --blue-vary-black: #0A3853;
+    --light-black: #141414;
+}
+
+.conteiner{
+    width: 1060px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    padding: 0 15px;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/avataria.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 43px;
+    color: var(--white);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+/* Login */
+.login{
+    width: 300px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.login-button{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.login input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login input[type="text"],
+input[type="password"]  {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid var(--white);
+    height: 30px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    color: var(--white);
+    font-weight: bold;
+    padding-top: 30px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
